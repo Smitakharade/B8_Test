@@ -1,0 +1,43 @@
+html syntax===> <!DOCTYPE html>
+<html>
+<head>
+<title> First Page </title>
+</head>
+
+<body>
+<h1>This is heading</h1>
+<p>This is a para</p>
+</body>
+
+</html>
+
+<!DOCTYPE>---definition of html document
+<html> this is the root element of an html Page
+<head> element which contains meta info that is hight width lenght etc
+<title> element which specifies title for html Page
+<body> element defines the body which contains all the visible contents such as headings, para, images, hyperlinks, tables and lists etc.
+<h1> element defines a large heading
+<p style="property:value;"> element defines a paragraph 
+<br> line break same like \n
+<a> element specifies an anchor tag
+Attribute=: <a href='https://www.w3schools.com>W3 Schools</a>
+<hr> horizontal line
+<img src='img file path' width=, height=>
+
+styling comes under css cascaded style sheet 
+
+types of css
+    inline that is included in the tag itself 
+        <p style>
+    internal that is included within 
+        <head>
+        <style>
+        body {background-color:aqua}
+        h1 {color:red}
+        p {color: pink}
+        </style>
+        </head>
+    external that means we defined it separately in a different file outside the template and we import it 
+        <head>
+        <link rel='stylesheet' href='styles.css'>        way to import the external css file
+        </head>
